@@ -1,3 +1,5 @@
+It's me, Aliaksei Chapyzhenka and I forked this card from [Tierney](https://github.com/bnb/bitandbang)!
+
 # Usage
 Via npx:
 ```
