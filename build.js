@@ -15,24 +15,26 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Tierney Cyren'),
-  handle: chalk.white('bitandbang'),
-  work: chalk.white('Senior Cloud Developer Advocate at Microsoft'),
+  name: chalk.white('       Aliaksei Chapyzhenka'),
+  handle: chalk.white('drom'),
+  work: chalk.white('Engineer @ SiFive'),
   opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
-  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('bitandbang'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~bnb'),
-  github: chalk.gray('https://github.com/') + chalk.green('bnb'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('bitandbang'),
-  web: chalk.cyan('https://bnb.im'),
-  npx: chalk.red('npx') + ' ' + chalk.white('bitandbang'),
-  labelWork: chalk.white.bold('       Work:'),
+  twitter: chalk.gray('https://twitter.com/') + chalk.cyan('wavedrom'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('~drom'),
+  github: chalk.gray('https://github.com/') + chalk.green('drom'),
+  gitlab: chalk.gray('https://gitlab.com/') + chalk.redBright('drom'),
+  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.yellow('achapyzh'),
+  web: chalk.cyan('https://drom.io'),
+  npx: chalk.red('npx') + ' ' + chalk.white('drom'),
+  labelWork: chalk.white.bold('    Work:'),
   labelOpenSource: chalk.white.bold('Open Source:'),
-  labelTwitter: chalk.white.bold('    Twitter:'),
-  labelnpm: chalk.white.bold('        npm:'),
-  labelGitHub: chalk.white.bold('     GitHub:'),
-  labelLinkedIn: chalk.white.bold('   LinkedIn:'),
-  labelWeb: chalk.white.bold('        Web:'),
-  labelCard: chalk.white.bold('       Card:')
+  labelTwitter: chalk.white.bold(' Twitter:'),
+  labelnpm: chalk.white.bold('     npm:'),
+  labelGitHub: chalk.white.bold('  GitHub:'),
+  labelGitLab: chalk.white.bold('  GitLab:'),
+  labelLinkedIn: chalk.white.bold('LinkedIn:'),
+  labelWeb: chalk.white.bold('     Web:'),
+  labelCard: chalk.white.bold('    Card:')
 }
 
 // Actual strings we're going to output
@@ -43,6 +45,7 @@ const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
+const gitlabing = `${data.labelGitLab}  ${data.gitlab}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
@@ -51,10 +54,11 @@ const carding = `${data.labelCard}  ${data.npx}`
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
                working + newline + // data.labelWork + data.work
-               opensourcing + newline + newline + // data.labelOpenSource + data.opensource
+               // opensourcing + newline + newline + // data.labelOpenSource + data.opensource
                twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
                githubing + newline + // data.labelGitHub + data.github
+               gitlabing + newline + // data.labelGitLab + data.gitlab
                linkedining + newline + // data.labelLinkedIn + data.linkedin
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
