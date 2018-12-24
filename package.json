@@ -1,6 +1,6 @@
 {
   "name": "drom",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A personal card for Aliaksei Chapyzhenka (@drom)",
   "main": "/bin/card.js",
   "bin": {
