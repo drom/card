@@ -15,7 +15,7 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('       Aliaksei Chapyzhenka'),
+  name: chalk.white('             Aliaksei Chapyzhenka'),
   handle: chalk.white('drom'),
   work: chalk.white('Engineer @ SiFive'),
   // opensource: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
@@ -41,7 +41,7 @@ const data = {
 
 // Actual strings we're going to output
 const newline = '\n'
-const heading = `${data.name} / ${data.handle}`
+const heading = `${data.name}` // ` / ${data.handle}`
 const working = `${data.labelWork}  ${data.work}`
 // const opensourcing = `${data.labelOpenSource}  ${data.opensource}`
 const twittering = `${data.labelTwitter}  ${data.twitter}`
